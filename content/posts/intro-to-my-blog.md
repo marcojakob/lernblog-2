@@ -3,11 +3,9 @@ title = "Intro to my Blog"
 date = "2019-08-16"
 draft = false
 pinned = false
-tags = ["#ConnectingProgram"]
+tags = ["ConnectingProgram"]
 footnotes = "github"
 +++
-
-
 **Welcome to my blog**
 
 > As a part of The new connecting program with Powercoders. I have created this Blog as a task which I will cover daily tasks and projects during the connecting program and am so exited to keep posting
@@ -18,9 +16,7 @@ footnotes = "github"
 What I will learn During the Program
 ```
 
-
-
-* Python<https://github.com/chiarabdy>
+* Python
 * Unit testing and test driven dev in Python
 * React
 * Redux
