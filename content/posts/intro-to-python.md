@@ -7,14 +7,19 @@ description = ""
 +++
 ## Python Data Type
 
-* float - real numbers
-* int - integer numbers
-* str - string, text
-* bool - True, False
+*   float - real numbers
+*   int - integer numbers 
+*   str - string, text
+*   bool - True, False
 
-> > ```
-> > In [1] : height = 1.73In [2]: tall = True
-> > ```
+
+```
+In [1] : height = 1.73 
+```
+
+```
+In [2]: tall = True
+```
 
 *  Each variable represents single value
 
