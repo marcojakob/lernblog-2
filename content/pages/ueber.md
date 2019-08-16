@@ -1,13 +1,13 @@
 +++
-title = "Über mich"
+title = "About Me"
 draft = false
+image = "/img/45bacd5a-790d-41c9-9d56-546d67ca268c.jpg"
 description = "Seite über mich"
-image = ""
 +++
 ![](/img/default-author.png)
 
-## Vorname Nachname
+## Chiar Abdi
 
-info@lernblog.ch
+chiar.abdi@powercoders.org
 
 Beschreibung, wer ich bin...
