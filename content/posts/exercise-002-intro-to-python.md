@@ -3,6 +3,7 @@ title = "Exercise 002 (Intro to Python)"
 date = "2019-08-17"
 draft = false
 pinned = false
+image = "/img/python.jpg"
 description = "Subset and conquer\nSubsetting Python lists is a piece of cake. Take the code sample below, which creates a list x and then selects \"b\" from it. Remember that this is the second element, so it has index 1. You can also use negative indexing.\n\n  x = [\"a\", \"b\", \"c\", \"d\"]\n  x[1]\n  x[-3] # same result!\n\nRemember the areas list from before, containing both strings and floats? Its definition is already in the script. Can you add the correct code to do some Python subsetting?"
 footnotes = ""
 +++
