@@ -25,10 +25,9 @@ The only method you must define in a React.Component subclass is called **render
 
 > Each component has several “lifecycle methods” that you can override to run code at particular times in the process. You can use this lifecycle diagram as a cheat sheet. In the list below, commonly used lifecycle methods are marked as bold. The rest of them exist for relatively rare use cases.
 
-
-
 ![](/img/lifecycles.jpg)
 
 I followed the tutorial with a Project which would be my old portfolio and later on it will be deployed and served with Github pages
 
-* The project on [Github](https://github.com/chiarabdy/chiarabdy.github.io)
+* The project on [Github](https://github.com/chiarabdy/my-portfolio)
+* See the live server project on [github pages](http://chiarabdy.github.io/my-portfolio)
