@@ -97,7 +97,7 @@ By calling the super() method in the constructor method, we call the parent's co
 
 ## React.createClass
 
-*** Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition.
+*** Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition. ***
 
 ~~~
 import React from 'react';
