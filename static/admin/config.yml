@@ -16,7 +16,7 @@ collections:
     name: "posts"
     preview_path: "{{slug}}/"
     editor:
-      preview: false
+      preview: true
     folder: "content/posts"
     create: true
     format: toml-frontmatter
