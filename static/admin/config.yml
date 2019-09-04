@@ -16,7 +16,7 @@ collections:
     name: "posts"
     preview_path: "{{slug}}/"
     editor:
-      preview: true
+      preview: false
     folder: "content/posts"
     create: true
     format: toml-frontmatter
@@ -92,7 +92,7 @@ collections:
     name: "pages"
     preview_path: "{{slug}}/"
     editor:
-      preview: true
+      preview: false
     folder: "content/pages"
     create: true
     format: "toml-frontmatter"
