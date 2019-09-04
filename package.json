@@ -1,0 +1,22 @@
+{
+  "name": "lernblogTesting",
+  "version": "1.0.0",
+  "description": "Weitere Informationen zum Lernblog siehe [www.lernblog.ch](https://www.lernblog.ch).",
+  "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "ssh2-sftp-client": "^2.5.0",
+    "upath": "^1.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "build": "webpack",
+    "deploy": "node deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
