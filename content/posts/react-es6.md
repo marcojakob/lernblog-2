@@ -12,10 +12,10 @@ image = "/img/es6-react.jpg"
 
 ## Why ES6 with React?
 
-* React uses ES6, and you should be familiar with some of the new features like:
-  > Classes
-  > Arrow Functions
-  > Variables(let, const, var)
+> React uses ES6, and you should be familiar with some of the new features like:
+  * Classes
+  * Arrow Functions
+  * Variables(let, const, var)
 
 ## Classes
 
@@ -23,10 +23,10 @@ _ES6 introduced classes._
 
 > A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties is assigned inside aconstructor() method.
 
-* A simple class constructor:
+### A simple class constructor:
 
 
-```
+~~~
 class Car {
 
 constructor(name) {
@@ -34,7 +34,7 @@ constructor(name) {
 this.brand = name;
 
 }}
-```
+~~~
 
 ## Method in Classes
 
@@ -65,6 +65,7 @@ A class created with a class inheritance inherits all the methods from another c
 
 ## Example
 ### Create a class named "Model" which will inherit the methods from the "Car" class:
+
 ~~~
 class Car {
 constructor(name) {
@@ -86,6 +87,7 @@ return this.present() + ', it is a ' + this.model
 mycar = new Model("Ford", "Mustang");
 mycar.show();
 ~~~
+
  > The super() method refers to the parent class.
 By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
 
@@ -108,6 +110,7 @@ export default Contacts;
 
 ### React.Component
  > Let’s take the above React.createClass definition and convert it to use an ES6 class.
+
 ~~~
 import React from 'react';
 
