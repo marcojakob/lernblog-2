@@ -16,7 +16,7 @@ collections:
     name: "posts"
     preview_path: "{{slug}}/"
     editor:
-      preview: true
+      preview: false
     folder: "content/posts"
     create: true
     format: toml-frontmatter
@@ -131,7 +131,7 @@ collections:
     name: "settings"
     delete: false
     editor:
-      preview: false
+      preview: true
     format: "toml-frontmatter"
     files:
       - label: "Allgemein"
