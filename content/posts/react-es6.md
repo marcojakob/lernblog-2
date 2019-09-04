@@ -91,10 +91,13 @@ mycar.show();
  > The super() method refers to the parent class.
 By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
 
-## Syntax differencesFirst
-  > let’s explore the syntax differences by looking at two code examples and annotating 
-### them.React.createClass
-  > Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition.
+# Syntax differencesFirst
+
+  ### let’s explore the syntax differences by looking at two code examples and annotating      them.
+
+## React.createClass
+
+*** Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition.
 
 ~~~
 import React from 'react';
@@ -109,8 +112,8 @@ return (
 export default Contacts;
 ~~~
 
-### React.Component
-  > Let’s take the above React.createClass definition and convert it to use an ES6 class.
+## React.Component
+### Let’s take the above React.createClass definition and convert it to use an ES6 class.***
 
 ~~~
 import React from 'react';
