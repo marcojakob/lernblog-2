@@ -11,11 +11,10 @@ image = "/img/es6-react.jpg"
 * ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.
 
 ## Why ES6 with React?
-
-> React uses ES6, and you should be familiar with some of the new features like:
-  * Classes
-  * Arrow Functions
-  * Variables(let, const, var)
+ *** React uses ES6, and you should be familiar with some of the new features like: ***
+* Classes
+* Arrow Functions
+* Variables(let, const, var)
 
 ## Classes
 
