@@ -3,7 +3,7 @@ title = "Intro-to-reactHooks"
 date = "2019-09-05"
 draft = false
 pinned = true
-image = "/img/react-hooks.png"
+image = "/img/reactHooks.png"
 +++
 
 # Introducing Hooks
