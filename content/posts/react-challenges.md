@@ -70,3 +70,10 @@ The code editor has a simple JSX component. Use the ReactDOM.render()method to r
     * The provided JSX element should render to the DOM node with id challenge-node.
 
   [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch003.jsx)
+
+## 5- React: Define an HTML Class in JSX
+Apply a class of myDivto the divprovided in the JSX code.
+
+    * The constant JSXshould return a divelement.
+    * The divhas a class of myDiv.
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch004.jsx)
