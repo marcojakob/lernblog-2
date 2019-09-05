@@ -93,3 +93,10 @@ Apply a class of myDivto the divprovided in the JSX code.
     * The constant JSXshould return a divelement.
     * The divhas a class of myDiv.
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch004.jsx)
+
+## 6- React: Learn About Self-Closing JSX Tags
+Fix the errors in the code editor so that it is valid JSX and successfully transpiles. Make sure you don't change any of the content - you only need to close tags where they are needed.
+
+    * The constant JSXshould return a divelement.
+    * The divshould contain a brtag.
+    * The divshould contain an hrtag.
