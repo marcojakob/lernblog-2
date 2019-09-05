@@ -4,6 +4,7 @@ date = "2019-08-16"
 draft = false
 pinned = false
 description = ""
+image = "/img/python.jpg"
 +++
 ## Python Data Type
 
