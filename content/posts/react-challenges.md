@@ -1,15 +1,23 @@
 +++
 title = "React Challenges"
 date = "2019-09-05"
-draft = false
+draft = true
 pinned = true
 image = "/img/react.png"
 +++
+
+## 1- React: Create a Simple JSX Element 
+### Instructions: 
+    element and add the text Hello JSX! inside it. 
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+
+The current code uses **JSX** to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it. 
+[SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+
 ## 1- React: Create a Simple JSX Element
 
 #### Instructions:
 
-<<<<<<< HEAD
 # List of Reacht exercises
 ## 1- React: Create a Simple JSX Element 
 #### Instructions: 
@@ -18,7 +26,6 @@ image = "/img/react.png"
 =======
 The current code uses **JSX** to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it. 
 [SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
->>>>>>> 7c2778c4257b9196d3a978d43c0525ee1c1e4b5b
 
 ## 2-React: Create a Complex JSX Element
 
@@ -59,6 +66,7 @@ The code editor has a JSX element similar to what you created in the last challe
     * The divshould contain an h1tag as the first element.
     * The divshould contain a ptag as the second element.
     * The JSXshould include a comment.
+
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch002.jsx)
 
 ## 4- React: Render HTML Elements to the DOM
@@ -71,9 +79,17 @@ As you would expect, ReactDOM.render()must be called after the JSX element decla
 
 The code editor has a simple JSX component. Use the ReactDOM.render()method to render this component to the page. You can pass defined JSX elements directly in as the first argument and use document.getElementById()to select the DOM node to render them to. There is a divwith id='challenge-node'available for you to use. Make sure you don't change the JSXconstant.
 ### Instructions:
+
     * The constant JSXshould return a divelement.
     * The divshould contain an h1tag as the first element.
     * The divshould contain a ptag as the second element.
     * The provided JSX element should render to the DOM node with id challenge-node.
 
   [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch003.jsx)
+
+## 5- React: Define an HTML Class in JSX
+Apply a class of myDivto the divprovided in the JSX code.
+
+    * The constant JSXshould return a divelement.
+    * The divhas a class of myDiv.
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch004.jsx)
