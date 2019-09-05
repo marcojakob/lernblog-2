@@ -1,9 +1,9 @@
 +++
-title = "Exercises"
-draft = true
+title = "react-chalanges"
+date = "2019-09-05"
+draft = false
+pinned = true
 image = "/img/react.png"
-description = "sulutions for each exercises"
-footnotes = "github"
 +++
 
 ## List of Reacht exercises
