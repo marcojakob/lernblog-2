@@ -23,7 +23,7 @@ The current code uses **JSX** to assign a div element to the constant JSX. Repla
 #### Instructions: 
      element and add the text Hello JSX! inside it. 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
-=======
+
 The current code uses **JSX** to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it. 
 [SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
 
