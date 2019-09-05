@@ -3,7 +3,7 @@ title = "React Components"
 date = "2019-09-02"
 draft = false
 pinned = false
-image = "/img/download.png"
+image = "/img/react.png"
 +++
 # Overview
 
