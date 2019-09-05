@@ -3,7 +3,7 @@ title = "Get starting with React"
 date = "2019-08-29"
 draft = false
 pinned = false
-image = "/img/download.png"
+image = "/img/react.png"
 description = "Overview and start learning react"
 +++
 What Is React?
@@ -52,9 +52,11 @@ class ShoppingList extends React.Component {
   Add child elements and nested child elements.
   Pass properties to an element.
 
-**`import React from 'react';`**``
+**`import React from 'react';`**`
+`
 
-**`import logo from './logo.svg';`**``
+**`import logo from './logo.svg';`**`
+`
 
 **`import './App.css';`**
 
