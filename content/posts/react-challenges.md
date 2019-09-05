@@ -1,7 +1,7 @@
 +++
 title = "React Challenges"
 date = "2019-09-05"
-draft = true
+draft = false
 pinned = true
 image = "/img/react.png"
 +++
