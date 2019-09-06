@@ -100,3 +100,15 @@ Fix the errors in the code editor so that it is valid JSX and successfully trans
     * The constant JSXshould return a divelement.
     * The divshould contain a brtag.
     * The divshould contain an hrtag.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch005.jsx)
+## 7- React: Create a Stateless Functional Component
+The code editor has a function called MyComponent. Complete this function so it returns a single divelement which contains some string of text.
+Note: The text is considered a child of the divelement, so you will not be able to use a self-closing tag.
+### Instructions:
+
+    * MyComponentshould return JSX.
+    * MyComponentshould return a divelement.
+    * The divelement should contain a string of text.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch006.jsx)
