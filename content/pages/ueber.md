@@ -10,6 +10,11 @@ footnotes = "github"
 ## Contact Me
 
 [Email](chiar.abdi@powercoders.org) 
+
 [Github](https://github.com/chiarabdy/)
+
 [LinkedIn](https://linkedin.com/chiarabdi)
+
 [Portfolio](https://chiarabdy.github.io/my-portfolio/)
+
+[Hackerrank](https://www.hackerrank.com/chiar_evdi)
