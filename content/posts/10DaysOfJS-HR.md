@@ -22,3 +22,13 @@ Variables named **firstInteger**, **firstDecimal**, and **firstString** are decl
 2. Convert **seconDecimal** to an floating-point number (Number type), then sum it with **firstDecimal** and print the result on a new line using console.log.
 3. Print the concatenation of **firstString** and **secondString** on a new line using console.log. Note that **firstSring**  must be printed first.
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day00/dataTypes.js)
+# Day 01: Arithmetic Operators
+### Task
+Complete the following functions in the editor below:
+1. getArea(length, width): Calculate and return the area of a rectangle having sides **length** and **width** .
+2. getPerimeter(length, width): Calculate and return the perimeter of a rectangle having sides **length** and **width** .
+The values returned by these functions are printed to stdout by locked stub code in the editor.
+### Explanation 0
+1. The area of the rectangle is **length** x **width** = 4 x 4.5 = 13.5 .
+2. The perimeter of the rectangle is 2.(**length** + **width**) = 2.(3 + 4.5) = 15.
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day01/arithmetic.js)
