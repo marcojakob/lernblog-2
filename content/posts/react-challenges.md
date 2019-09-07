@@ -112,3 +112,4 @@ Note: The text is considered a child of the divelement, so you will not be able 
     * The divelement should contain a string of text.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch006.jsx)
+## 8- React: Create a React Component
