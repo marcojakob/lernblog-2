@@ -120,4 +120,18 @@ MyComponentis defined in the code editor using class syntax. Finish writing the 
     * The React component should return a divelement.
     * The returned divshould render an h1header within it.
     * The h1header should contain the string Hello React!.
+
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch007.jsx)
+
+## 9- React: Create a Component with Composition
+ we can compose multiple React components together. Imagine you are building an App and have created three components, a **Navbar**, **Dashboard**, and **Footer**. To compose these components together, you could create an **App** parent component which renders each of these three components as children. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the **render** method you could write:
+
+### Instructions
+In the code editor, there is a simple functional component called ChildComponent and a class component called ParentComponent. Compose the two together by rendering the ChildComponent within the ParentComponent. Make sure to close the ChildComponent tag with a forward slash. Note: ChildComponent is defined with an ES6 arrow function because this is a very common practice when using React. However, know that this is just a function. If you aren't familiar with the arrow function syntax, please refer to the JavaScript section.
+
+    * The React component should return a single divelement.
+    * The component should return two nested elements.
+    * The component should return the ChildComponent as its second child  
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch008.jsx)
+
