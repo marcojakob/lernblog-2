@@ -113,3 +113,11 @@ Note: The text is considered a child of the divelement, so you will not be able 
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch006.jsx)
 ## 8- React: Create a React Component
+The other way to define a React component is with the ES6 classsyntax
+### Instructions:
+MyComponentis defined in the code editor using class syntax. Finish writing the rendermethod so it returns a divelement that contains an h1with the text Hello React!.
+
+    * The React component should return a divelement.
+    * The returned divshould render an h1header within it.
+    * The h1header should contain the string Hello React!.
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch007.jsx)
