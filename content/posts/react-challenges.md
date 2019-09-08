@@ -135,3 +135,19 @@ In the code editor, there is a simple functional component called ChildComponent
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch008.jsx)
 
+## 10 - React: Use React to Render Nested Components
+
+The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
+
+Component composition is one of React's powerful features. When you work with React, it is important to start thinking about your user interface in terms of components like the App example in the last challenge. You break down your UI into its basic building blocks, and those pieces become the components. This helps to separate the code responsible for the UI from the code responsible for handling your application logic. It can greatly simplify the development and maintenance of complex projects.
+
+
+There are two functional components defined in the code editor, called TypesOfFruitand Fruits. Take the TypesOfFruitcomponent and compose it, or nest it, within the Fruitscomponent. Then take the Fruitscomponent and nest it within the TypesOfFoodcomponent. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!
+### Instructions
+    * The TypesOfFoodcomponent should return a single divelement.
+    * The TypesOfFoodcomponent should return the Fruitscomponent.
+    * The Fruitscomponent should return the TypesOfFruitcomponent.
+    * The TypesOfFruitcomponent should return the h2and ulelements.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch009.jsx)
+
