@@ -38,4 +38,21 @@ The values returned by these functions are printed to stdout by locked stub code
 * The perimeter of the rectangle is 2.(**length** + **width**) = 2.(3 + 4.5) = 15.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day01/arithmetic.js)
+## Day 01: Functions
+### Task
+Implement a function named factorial that has one parameter: an integer,**n** . It must return the value of **n**! (i.e., n factorial).
+**Problem**
+* A integer of value n is provided
+* 1 ≤ n ≤ 10
+* Output the factorial value of n (n!, 4! = 4 x 3 x 2 x 1 = 24)
 
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day01/Functions.js)
+
+## Day 01: Let and Const
+### Task
+* Declare a constant variable,**PI** , and assign it the value Math.PI. You will not pass this challenge unless the variable is declared as a constant and named PI (uppercase).
+* Read a number,**r** , denoting the radius of a circle from stdin.
+* Use **PI** and **r** to calculate the **area** and **perimeter** of a circle having radius .
+* Print **area** as the first line of output and print **perimeter** as the second line of output.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day01/letAndConst.js)
