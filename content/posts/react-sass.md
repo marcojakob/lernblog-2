@@ -1,3 +1,11 @@
++++
+title = "React Sass"
+date = "2019-09-10"
+draft = false
+pinned = false
+image = "/img/sass-create-react-app.jpg"
++++
+
 # What is Sass
 **Sass** is a **CSS** pre-processor.
 **Sass** files are executed on the server and sends **CSS** to the browser.
