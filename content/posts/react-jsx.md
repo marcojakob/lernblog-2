@@ -2,7 +2,7 @@
 title = "react-jsx"
 date = "2019-09-05"
 draft = false
-pinned = true
+pinned = false
 image = "/img/react.png"
 +++
 
