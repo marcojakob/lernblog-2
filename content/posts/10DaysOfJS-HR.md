@@ -68,5 +68,5 @@ Complete the getGrade(score) function in the editor. It has one parameter: an in
     If 5 < score <= 10, then grade = E.
     If 0 <= score <= 5, then grade = F.
 
-[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day02/If-Else-Statements.js)
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day02/%C2%96If-Else-Statements.js)
 
