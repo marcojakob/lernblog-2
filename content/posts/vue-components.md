@@ -23,3 +23,13 @@ Vue.component('button-counter', {
   template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
 })
 ~~~
+## Reusing Components
+components can be reused. **for example**
+~~~
+<div id="components-demo">
+  <button-counter></button-counter>
+  <button-counter></button-counter>
+  <button-counter></button-counter>
+</div>
+~~~
+in the previous example we Notice that when clicking on the buttons, each one maintains its own, separate count. That’s because each time we use a component, a new instance of it is created.
