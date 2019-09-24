@@ -1,6 +1,6 @@
 +++
 titlte: "List  Rendering"
-date = "2019-09-24"
+date = "2019-09-25"
 draft = false
 pinned = false
 image = "/img/vue-list-rendering.png"
