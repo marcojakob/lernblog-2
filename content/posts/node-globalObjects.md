@@ -1,7 +1,7 @@
 +++
 title = "Global Objects"
 date = "2019-09-25"
-drift = false
+draft = false
 pinned = false
 image = "/img/global-object.jpg"
 +++
