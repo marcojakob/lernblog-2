@@ -18,7 +18,7 @@ var eventEmitter = new events.EventEmitter();
 ~~~
 ### EventEmitter Properties and Methods
 | Module| Description|       
-|-|-|
+| --------- |:---|
 |addListener()| Adds the specified listener|
 |defaultMaxListeners	|Sets the maximum number of listeners allowed for one event. Default is 10|
 |emit()	|Call all the listeners registered with the specified name|
