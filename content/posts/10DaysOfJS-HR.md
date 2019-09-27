@@ -97,13 +97,43 @@ Hint: You can get the letter at some index  in  using the syntax s[i] or s.charA
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day02/loops.js)
 
 ## Day 3: Arrays
-### TAsk 
+### Task 
 Complete the getSecondLargest function in the editor below. It has one parameter: an array,**nums** , of **n** numbers. The function must find and return the second largest number in **nums**.
 
 ### Explanation
 Given the array **nums = [2,3,6,6,5] , we see that the largest value in the array is 6 and the second largest value is 5. Thus, we return 5 as our answer.
-*   Return the second largest number in the array.
-*   @param {Number[]} nums - An array of numbers.
-*   @return {Number} The second largest number in the array.
+
+* Return the second largest number in the array.
+* @param {Number[]} nums - An array of numbers.
+* @return {Number} The second largest number in the array.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day03/array.js)
+## Day 3: Throw
+### Task
+Complete the isPositive function below. It has one integer parameter, . If the value of  is positive, it must return the string YES. Otherwise, it must throw an Error according to the following rules:
+
+If **a** is 0, throw an Error with **message -Zero Error**.
+If **a** is negative, throw an Error with **message - Negative Error**.
+
+* Complete the isPositive function.
+* If 'a' is positive, return "YES".
+* If 'a' is 0, throw an Error with the message "Zero Error"
+* If 'a' is negative, throw an Error with the message "Negative Error"
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day03/throw.js)
+
+## Day 3: 
+### Task
+Complete the reverseString function; it has one parameter,**s** . You must perform the following actions:
+
+1. Try to reverse string **s** using the split, reverse, and join methods.
+2. If an exception is thrown, catch it and print the contents of the exception's **message** on a new line.
+3. Print **s** on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
+### Output Format
+
+You must write two print statements using console.log():
+
+* Print the contents of a caught exception's **message** on a new line. If no exception was thrown, this line should not be printed.
+* Print **s** on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day03/try-catch-finally.js)
