@@ -96,3 +96,14 @@ Hint: You can get the letter at some index  in  using the syntax s[i] or s.charA
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day02/loops.js)
 
+## Day 3: Arrays
+### TAsk 
+Complete the getSecondLargest function in the editor below. It has one parameter: an array,**nums** , of **n** numbers. The function must find and return the second largest number in **nums**.
+
+### Explanation
+Given the array **nums = [2,3,6,6,5] , we see that the largest value in the array is 6 and the second largest value is 5. Thus, we return 5 as our answer.
+*   Return the second largest number in the array.
+*   @param {Number[]} nums - An array of numbers.
+*   @return {Number} The second largest number in the array.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day03/array.js)
