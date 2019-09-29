@@ -39,3 +39,12 @@ var fs = require('fs');
 fs.readFileSync('readMe.txt', 'utf8');
 console.log(readMe)
 ```
+### Here is the synchronous version:
+``` javascript
+const fs = require('fs');
+
+fs.unlink('/tmp/hello', (err) => {
+  if (err) throw err;
+  console.log('successfully deleted /tmp/hello');
+});
+```
