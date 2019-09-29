@@ -12,10 +12,11 @@ In Node.js, all events are an instance of the **EventEmitter** object
 
 ### Syntax
     The syntax for including the Events module, and creating an EventEmitter in your application:
-~~~
+
+```javascript
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
-~~~
+```
 ### EventEmitter Properties and Methods
 Module                 | Description
 -----------------------|:-----------

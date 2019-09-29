@@ -9,7 +9,7 @@ image = "/img/reactHooks.png"
 # Introducing Hooks
 Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
-~~~
+```javascript
 import React, { useState } from 'react';
 
 function Example() {
@@ -25,6 +25,6 @@ function Example() {
     </div>
   );
 }
-~~~
+```
 
 This new function **useState** is the first “Hook”

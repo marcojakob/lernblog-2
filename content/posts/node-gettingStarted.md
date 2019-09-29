@@ -12,15 +12,16 @@ image = "/img/nodejs.png"
 # Getting Started
 create test.js file after setting up the environment which print Hello, World
 and simply run it by typing
-~~~
-node test.js
-~~~
 
-~~~
+```javascript
+node test.js
+```
+
+```javascript
 var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.end('Hello World!');
 }).listen(8080);
-~~~
+```

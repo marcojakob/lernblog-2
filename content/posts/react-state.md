@@ -15,7 +15,7 @@ The state object is initialized in the constructor:
 
 **Example:**
     Specifiy the state object in the constructor method:
-~~~
+```js
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -29,11 +29,11 @@ class Car extends React.Component {
     );
   }
 }
-~~~
+```
 * The state object can contain as many properties
 **Examples:**
 Specify all the properties your component need:
-~~~
+```js
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -52,7 +52,7 @@ class Car extends React.Component {
     );
   }
 }
-~~~
+```
 
 Using the state Object
 Refer to the state object anywhere in the component by using the this.state.propertyname syntax:
@@ -60,6 +60,7 @@ Refer to the state object anywhere in the component by using the this.state.prop
 Example:
 Refer to the state object in the render() method:
 
+```js
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -83,7 +84,7 @@ class Car extends React.Component {
     );
   }
 }
- 
+``` 
 ### Changing the state Object
 To change a value in the state object, use the **this.setState()** method.
 
@@ -92,7 +93,7 @@ When a value in the **state** object changes, the component will re-render, mean
 **Example:**
 Add a button with an **onClick** event that will change the color property:
 
-~~~
+```js
 class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -123,4 +124,4 @@ class Car extends React.Component {
     );
   }
 }
-~~~
+```
