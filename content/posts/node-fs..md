@@ -1,6 +1,6 @@
 +++
 title = "Reading & Writing Files (fs)"
-date = "2019-09-25"
+date = "2019-09-29"
 draft = false
 pinned = false
 image = "/img/fs.png"
