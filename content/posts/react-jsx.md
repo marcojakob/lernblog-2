@@ -24,7 +24,7 @@ Let us demonstrate with two examples, the first uses JSX and the second does not
 
 Example 1
 JSX:
-~~~
+```js
 const myelement = <h1>I Love JSX!</h1>;
 ReactDOM.render(myelement, document.getElementById('root'));
-~~~
+```

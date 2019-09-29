@@ -14,7 +14,7 @@ What Is React?
 
 ## 
 
-```
+```javascript
 class ShoppingList extends React.Component {
   render() {
     return (

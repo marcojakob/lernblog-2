@@ -17,23 +17,23 @@ Here is a list of [Global Object](https://nodejs.org/api/globals.html) in Node.j
 
 ### setTimeOut
 
-~~~
+```javascript
 setTimeout (function(){
 console.log("3 Seconds have passed");
 }, 3000);
-~~~
+```
 
 ### setInterval
 
-~~~
+```javascript
 var time = 0;
 setInterval (function(){
     time += 2;
     console.log(time + ' Seconds have passed');
 }, 2000);
-~~~
+```
 ###  clearInterval
-~~~
+```javascript
 var time = 0;
 
 var timer = setInterval (function(){
@@ -43,15 +43,15 @@ var timer = setInterval (function(){
         clearInterval(timer);
     }
 }, 2000);
+```
 
-~~~
 ### __dirname
-~~~
+```javascript
 console.log(__dirname);
-~~~
+```
 
 ### __filename
-~~~
+```javascript
 console.log(__filename);
-~~~
+```
 ### 

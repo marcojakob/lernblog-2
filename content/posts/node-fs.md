@@ -40,7 +40,8 @@ fs.readFileSync('readMe.txt', 'utf8');
 console.log(readMe)
 ```
 ### Here is the synchronous version:
-``` javascript
+
+```javascript
 const fs = require('fs');
 
 fs.unlink('/tmp/hello', (err) => {

@@ -14,11 +14,11 @@ image = "/img/python.jpg"
 *   bool - True, False
 
 
-```
+```python
 In [1] : height = 1.73 
 ```
 
-```
+```python
 In [2]: tall = True
 ```
 

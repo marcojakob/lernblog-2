@@ -27,7 +27,7 @@ _ES6 introduced classes._
 ### A simple class constructor:
 
 
-~~~
+```javascript
 class Car {
 
 constructor(name) {
@@ -35,7 +35,7 @@ constructor(name) {
 this.brand = name;
 
 }}
-~~~
+```
 
 ## Method in Classes
 
@@ -46,7 +46,7 @@ this.brand = name;
 ***Example***
 
 ### Create a method named "present":
-~~~
+```javascript
 class Car {
    constructor(name) {
      this.brand = name;
@@ -58,7 +58,7 @@ class Car {
 }
 mycar = new Car("Ford");
 mycar.present();
-~~~
+```
 
  ## Class Inheritance
  > To create a class inheritance, use the ***extends*** keyword.
@@ -67,7 +67,7 @@ A class created with a class inheritance inherits all the methods from another c
 ## Example
 ### Create a class named "Model" which will inherit the methods from the "Car" class:
 
-~~~
+```javascript
 class Car {
 constructor(name) {
 this.brand = name;
@@ -87,7 +87,7 @@ return this.present() + ', it is a ' + this.model
 }}
 mycar = new Model("Ford", "Mustang");
 mycar.show();
-~~~
+```
 
  > The super() method refers to the parent class.
 By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
@@ -98,9 +98,10 @@ By calling the super() method in the constructor method, we call the parent's co
 
 ## React.createClass
 
-*** Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition. ***
+*** Here we have a const with a React class assigned, with the important render function following on to complete a typical base component definition.
+ ***
 
-~~~
+```javascript
 import React from 'react';
 
 const Contacts = React.createClass({
@@ -111,12 +112,13 @@ return (
 }});
 
 export default Contacts;
-~~~
+```
 
 ## React.Component
-### Let’s take the above React.createClass definition and convert it to use an ES6 class.***
+### Let’s take the above React.createClass definition and convert it to use an ES6 class.
+***
 
-~~~
+```javascript
 import React from 'react';
 
 class Contacts extends React.Component {
@@ -130,40 +132,40 @@ return (
 }}
 
 export default Contacts;
-~~~
+```
 # 2- Arrow Functions
 _Arrow functions were introduced in ES6.
 Arrow functions allow us to write shorter function syntax:_
 
 ### Before:
 
- ~~~
+ ```javascript
 hello = function() {
   return "Hello World!";
 }
- ~~~
+ ```
 
 ### With Arrow Function:
 
-~~~
+```javascript
 hello = () => {
   return "Hello World!";
 }
-~~~
+```
  > It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:
 
 ### Arrow Functions Return Value by Default:
-~~~
+```javascript
 hello = () => "Hello World!";
-~~~
+```
 
  > In fact, if you have only one parameter, you can skip the parentheses  as well:
 
  ### Arrow Function Without Parentheses:
 
-~~~
+```js
 hello = val => "Hello " + val;
-~~~
+```
 
 ---
 
@@ -182,13 +184,14 @@ Both examples call a method twice, first when the page loads, and once again whe
 
 The first example uses a regular function, and the second example uses an arrow function.
 
-The result shows that the first example returns two different objects (window and button), and the second example returns the Header object twice. 
+The result shows that the first example returns two different objects (window and button), and the second example returns the Header object twice.
+ 
 
 ### Example
 
 With a regular function this represents the object that called the function:
 
- ~~~
+ ```js
 class Header {
   constructor() {
     this.color = "Red";
@@ -207,11 +210,13 @@ window.addEventListener("load", myheader.changeColor);
 
 //A button object calls the function:
 document.getElementById("btn").addEventListener("click", myheader.changeColor);
-~~~
+
+```
  
 ### Example
 With an arrow function this represents the Header object no matter who called the function:
-~~~
+
+```js
 class Header {
   constructor() {
     this.color = "Red";
@@ -231,7 +236,7 @@ window.addEventListener("load", myheader.changeColor);
 
 //A button object calls the function:
 document.getElementById("btn").addEventListener("click", myheader.changeColor);
-~~~
+```
  
 # 3- Variables
  > Before ES6 there were only one way of defining your variables: with the var keyword. If you did not define them, they would be assigned to the global object. Unless you were in strict mode, then you would get an error if your variables were undefined.
@@ -239,9 +244,9 @@ document.getElementById("btn").addEventListener("click", myheader.changeColor);
 Now, with **ES6**, there are three ways of defining your variables: var, let, and const.
 
 ### var
-~~~
+```js
 var x = 5.6;
-~~~
+```
 
 * If you use var outside of a function, it belongs to the global scope.
 
@@ -249,12 +254,14 @@ var x = 5.6;
 
 * If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
 
-**var has a function scope, not a block scope.**
+**var has a function scope, not a block scope.
+**
 
 ### let
-~~~
+```js
 let x = 5.6;
-~~~
+
+```
 
 > let has a block scope.
 
@@ -263,9 +270,10 @@ let is the block scoped version of var, and is limited to the block (or expressi
 If you use let inside of a block, i.e. a for loop, the variable is only available inside of that loop.
 
 ### const
-~~~
+```js
 const x = 5.6;
-~~~
+
+```
 
 const is a variable that once it has been created, its value can never change.
 
