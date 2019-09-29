@@ -2,7 +2,7 @@
 title = "getting started with Node,js "
 date = "2019-09-25"
 draft = false
-pinned = true
+pinned = false
 image = "/img/nodejs.png"
 +++
 ## NodeJS

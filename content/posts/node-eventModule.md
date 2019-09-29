@@ -2,7 +2,7 @@
 title = "Node.js Event Module"
 date = "2019-09-25"
 draft = false
-pinned = true
+pinned = false
 image = "/img/eventModule.jpg"
 +++
 # Built-in Modules
