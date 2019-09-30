@@ -1,5 +1,6 @@
 /resources
 /public
 .DS_Store
-node_modules/
-.idea/
+/node_modules
+.idea
+/test
