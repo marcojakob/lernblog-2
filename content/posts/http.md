@@ -3,7 +3,7 @@ title = "HTTP"
 date = "2019-09-30"
 pinned = false
 draft = false
-image = "img/http.jpg"
+image = "/img/http.jpg"
 +++
 ## HTTP
 is a Node.js built-in module, which allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP).
