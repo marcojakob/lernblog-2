@@ -38,10 +38,28 @@ http.createServer(function (req, res) {
 ## Add an HTTP Header
 If the response from the **HTTP server** is supposed to be displayed as HTML, you should include an **HTTP header** with the correct content type:
 ```js
-var http = require('http');
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write('Hello World!');
-  res.end();
-}).listen(8080);
+const http = require('http');
+const fs = require('fs');
+const port = 3000;
+
+const server =  http.createServer((req,res)=>{
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    fs.readFile('index.html', (error, data)=>{
+        if (error){
+            res.writeHead(404);
+            res.write('Error: File Not Found');
+        } else {
+            res.write(data);
+        }
+        res.end()
+    });
+});
+
+server.listen(port, (error)=>{
+    if (error){
+        console.log('Something Went wrong');
+    } else {
+        console.log('Server listining on port 3000');
+    }
+})
 ```
