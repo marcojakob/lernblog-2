@@ -6,7 +6,8 @@ draft = false
 image = '/img/nodejs.png'
 +++
 ## serving json to the client
-* Send it th the response object directly by using the ```end()``` method
+__Send it th the response object directly by using the ```end()``` method__
+
 ```js
 const http = require('http');
 const fs = require('fs');
