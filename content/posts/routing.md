@@ -3,18 +3,19 @@ title = "Basic Routing"
 date = "2019-10-01"
 pinned = false
 draft = false
-img = "/img/nodejs.png"
+image = "/img/nodejs.png"
 +++
 ## Routing
 Routing defines the way in which the client requests are handled by the application endpoints.
 ### Implementation of routing in Node.js: 
 There are two ways to implement routing in node.js which are listed below:
-* Routing with Express
+### Routing with Express
 
-    __Express.js has an “app” object corresponding to HTTP. We define the routes by using the methods of this “app” object. This app object specifies a callback function, which is called when a request is received. We have different methods in app object for a different type of request.__
+__Express.js has an “app” object corresponding to HTTP. We define the routes by using the methods of this “app” object. This app object specifies a callback function, which is called when a request is received. We have different methods in app object for a different type of request.__
 > will talk about express in comming posts.
 
-* Without using Framework
+### Without using Framework
+
 ```js
 const http = require('http');
 const fs = require('fs');
