@@ -48,3 +48,92 @@ app.delete('/user', function (req, res) {
 })
 
 ```
+## Route Methods
+A route method is derived from one of the HTTP methods, and is attached to an instance of the express class.
+
+The following code is an example of routes that are defined for the GET and the POST methods to the root of the app.
+```js
+// GET method route
+app.get('/', (req, res)=> {
+  res.send('GET request to the homepage')
+})
+
+// POST method route
+app.post('/', (req, res)=> {
+  res.send('POST request to the homepage')
+})
+```
+**Express** supports methods that correspond to all **HTTP request methods**: ***get, post, and so on.*** For a full list,  [app.METHOD.](https://expressjs.com/en/4x/api.html#app.METHOD)
+
+There is a special routing method, [app.all()](https://expressjs.com/en/4x/api.html#app.all), used to load middleware functions at a path for all HTTP request methods. **For example**, the following handler is executed for requests to the route ```“/secret”``` whether using ***GET, POST, PUT, DELETE,*** or any other HTTP request method supported in the http module.
+```js
+app.all('/secret', function (req, res, next) {
+  console.log('Accessing the secret section ...')
+  next() // pass control to the next handler
+})
+```
+## Route Paths
+Route paths, in combination with a request method, define the endpoints at which requests can be made. Route paths can be strings, string patterns, or regular expressions.
+
+The characters ?, +, *, and () are subsets of their regular expression counterparts. The hyphen (-) and the dot (.) are interpreted literally by string-based paths.
+
+If you need to use the dollar character ($) in a path string, enclose it escaped within ([ and ]). For example, the path string for requests at “/data/$book”, would be “/data/([\$])book”.
+### Examples
+__This route path will match requests to the root route, /.__
+```js
+app.get('/', function (req, res) {
+  res.send('root')
+})
+```
+__This route path will match requests to /about.__
+```j
+app.get('/about', function (req, res) {
+  res.send('about')
+})
+```
+__This route path will match requests to /random.text.__
+```js
+app.get('/random.text', function (req, res) {
+  res.send('random.text')
+})
+```
+### Here are some examples of route paths based on string patterns.
+
+__This route path will match acd and abcd.__
+```js
+app.get('/ab?cd', function (req, res) {
+  res.send('ab?cd')
+})
+```
+__This route path will match abcd, abbcd, abbbcd, and so on.__
+```js
+app.get('/ab+cd', function (req, res) {
+  res.send('ab+cd')
+})
+```
+__This route path will match abcd, abxcd, abRANDOMcd, ab123cd, and so on.__
+```js
+app.get('/ab*cd', function (req, res) {
+  res.send('ab*cd')
+})
+```
+__This route path will match /abe and /abcde.__
+```js
+app.get('/ab(cd)?e', function (req, res) {
+  res.send('ab(cd)?e')
+})
+```
+### Examples of route paths based on regular expressions:
+
+__This route path will match anything with an “a” in it.__
+```js
+app.get(/a/, function (req, res) {
+  res.send('/a/')
+})
+```
+__This route path will match butterfly and dragonfly, but not butterflyman, dragonflyman, and so on.__
+```js
+app.get(/.*fly$/, function (req, res) {
+  res.send('/.*fly$/')
+})
+```
