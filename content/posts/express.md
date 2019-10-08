@@ -24,26 +24,26 @@ app.METHOD(PATH, HANDLER)
 __The following examples illustrate defining simple routes.
 Respond with Hello World! on the homepage:__
 ```js
-app.get('/', function (req, res) {
+app.get('/',  (req, res)=> {
   res.send('Hello World!')
 })
 ```
 __Respond to POST request on the root route (/), the application’s home page:__
 ```js
-app.post('/', function (req, res) {
+app.post('/',  (req, res)=> {
   res.send('Got a POST request')
 })
 ```
 __Respond to a PUT request to the /user route:__
 
 ```js
-app.put('/user', function (req, res) {
+app.put('/user',  (req, res)=> {
   res.send('Got a PUT request at /user')
 })
 ```
 __Respond to a DELETE request to the /user route:__
 ```js
-app.delete('/user', function (req, res) {
+app.delete('/user',  (req, res)=> {
   res.send('Got a DELETE request at /user')
 })
 
@@ -67,7 +67,7 @@ app.post('/', (req, res)=> {
 
 There is a special routing method, [app.all()](https://expressjs.com/en/4x/api.html#app.all), used to load middleware functions at a path for all HTTP request methods. **For example**, the following handler is executed for requests to the route ```“/secret”``` whether using ***GET, POST, PUT, DELETE,*** or any other HTTP request method supported in the http module.
 ```js
-app.all('/secret', function (req, res, next) {
+app.all('/secret',  (req, res, next) {
   console.log('Accessing the secret section ...')
   next() // pass control to the next handler
 })
@@ -81,19 +81,19 @@ If you need to use the dollar character ($) in a path string, enclose it escaped
 ### Examples
 __This route path will match requests to the root route, /.__
 ```js
-app.get('/', function (req, res) {
+app.get('/',  (req, res)=> {
   res.send('root')
 })
 ```
 __This route path will match requests to /about.__
 ```j
-app.get('/about', function (req, res) {
+app.get('/about',  (req, res)=> {
   res.send('about')
 })
 ```
 __This route path will match requests to /random.text.__
 ```js
-app.get('/random.text', function (req, res) {
+app.get('/random.text',  (req, res)=> {
   res.send('random.text')
 })
 ```
@@ -101,25 +101,25 @@ app.get('/random.text', function (req, res) {
 
 __This route path will match acd and abcd.__
 ```js
-app.get('/ab?cd', function (req, res) {
+app.get('/ab?cd',  (req, res)=> {
   res.send('ab?cd')
 })
 ```
 __This route path will match abcd, abbcd, abbbcd, and so on.__
 ```js
-app.get('/ab+cd', function (req, res) {
+app.get('/ab+cd',  (req, res)=> {
   res.send('ab+cd')
 })
 ```
 __This route path will match abcd, abxcd, abRANDOMcd, ab123cd, and so on.__
 ```js
-app.get('/ab*cd', function (req, res) {
+app.get('/ab*cd',  (req, res)=> {
   res.send('ab*cd')
 })
 ```
 __This route path will match /abe and /abcde.__
 ```js
-app.get('/ab(cd)?e', function (req, res) {
+app.get('/ab(cd)?e',  (req, res)=> {
   res.send('ab(cd)?e')
 })
 ```
@@ -127,13 +127,13 @@ app.get('/ab(cd)?e', function (req, res) {
 
 __This route path will match anything with an “a” in it.__
 ```js
-app.get(/a/, function (req, res) {
+app.get(/a/,  (req, res)=> {
   res.send('/a/')
 })
 ```
 __This route path will match butterfly and dragonfly, but not butterflyman, dragonflyman, and so on.__
 ```js
-app.get(/.*fly$/, function (req, res) {
+app.get(/.*fly$/,  (req, res)=> {
   res.send('/.*fly$/')
 })
 ```
