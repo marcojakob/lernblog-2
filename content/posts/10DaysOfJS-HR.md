@@ -137,3 +137,14 @@ You must write two print statements using console.log():
 * Print **s** on a new line. If no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day03/try-catch-finally.js)
+
+## Day 4: Create a Rectangle Object
+### Task
+Complete the function in the editor. It has two parameters:**a**  and **b**. It must return an object modeling a rectangle that has the following properties:
+
+* length: This value is equal to **a**.
+* width: This value is equal to **b**.
+* perimeter: This value is equal to **2**.(a +b)
+* area: This value is equal to **a.b**
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/create-rectangle-object.js)
