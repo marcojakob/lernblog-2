@@ -1,6 +1,6 @@
 +++
 title = " introduction to Python for Data Science"
-date = "2019-10-015"
+date = "2019-10-15"
 draft = false
 pinned = false
 image = "/img/python.jpg"
