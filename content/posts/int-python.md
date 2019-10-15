@@ -30,3 +30,12 @@ Suppose you have $100, which you can invest with a 10% return each year. After o
 * Check out this variable by typing print(savings) in the script.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E002.py)
+
+## Exercise 003 Calculations with variables
+### Instructions
+* Create a variable growth_multiplier, equal to 1.1.
+* Create a variable, result, equal to the amount of money you saved after 7 years.
+* Print out the value of result.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E003.py)
+
