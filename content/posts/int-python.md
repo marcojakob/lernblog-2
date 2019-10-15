@@ -70,3 +70,20 @@ type(a)
 * Print out doubledesc. Did you expect this?
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E006.py)
+
+## Exercise 007 Type conversion 
+Using the + operator to paste together two strings can be very useful in building custom messages.
+```py
+print("I started with $" + savings + " and now have $" + result + ". Awesome!")
+```
+This will not work, though, as you cannot simply sum strings and floats.
+
+To fix the error, you'll need to explicitly convert the types of your variables. More specifically, you'll need str(), to convert a value into a string. str(savings), for example, will convert the float savings to a string.
+
+Similar functions such as int(), float() and bool() will help you convert Python values into any type.
+### Instructions
+* Hit Run Code to run the code. Try to understand the error message.
+* Fix the code such that the printout runs without errors; use the function str() to convert the variables to  strings.
+* Convert the variable pi_string to a float and store this float as a new variable, pi_float.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E007.py)
