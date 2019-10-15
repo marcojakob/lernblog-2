@@ -2,7 +2,7 @@
 title = "10 Days of JS"
 date = "2019-09-06"
 draft = false
-pinned = false
+pinned = true
 image = "/img/hackerrank.png"
 +++
 # Overview: 10 Days of JavaScript
