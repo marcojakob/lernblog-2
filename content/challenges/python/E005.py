@@ -1,0 +1,1 @@
+a is of type float, b is of type str, c is of type bool

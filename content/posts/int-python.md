@@ -46,3 +46,18 @@ Suppose you have $100, which you can invest with a 10% return each year. After o
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E004.py)
 
+## Exercise 005 Guess the type
+To find out the type of a value or a variable that refers to that value, you can use the ```type()``` function. Suppose you've defined a variable a, but you forgot the type of this variable. To determine the type of a, simply execute:
+
+```python
+type(a)
+```
+### Instructions
+    choose the correct answer:
+* a is of type int, b is of type str, c is of type bool
+* a is of type float, b is of type bool, c is of type str
+* a is of type float, b is of type str, c is of type bool
+* a is of type int, b is of type bool, c is of type str
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E005.py)
+
