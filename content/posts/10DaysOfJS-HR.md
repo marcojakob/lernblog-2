@@ -148,3 +148,21 @@ Complete the function in the editor. It has two parameters:**a**  and **b**. It 
 * area: This value is equal to **a.b**
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/create-rectangle-object.js)
+
+## Day 4: Count Objects
+### Task
+Complete the function in the editor. It has one parameter: an array,**a** , of objects. Each object in the array has two integer properties denoted by **x** and **y**. The function must return a count of all such objects **o** in array **a** that satisfy **o.x==o.y** .
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/count-objects.js)
+
+## Day 4: Classes
+### Task
+
+Create a Polygon class that has the following properties:
+
+* A constructor that takes an array of integer values describing the lengths of the polygon's sides.
+* A perimeter() method that returns the polygon's perimeter.
+Locked code in the editor tests the Polygon constructor and the perimeter method.
+
+__Note:__ The perimeter method must be lowercase and spelled correctly.
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/classes.js)
