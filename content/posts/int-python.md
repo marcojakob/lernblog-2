@@ -39,3 +39,10 @@ Suppose you have $100, which you can invest with a 10% return each year. After o
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E003.py)
 
+## Exercise 004 Other variable types
+### Instructions
+* Create a new string, desc, with the value "compound interest".
+* Create a new boolean, profitable, with the value True.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E004.py)
+
