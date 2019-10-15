@@ -23,3 +23,10 @@ Python is perfectly suited to do basic calculations. Apart from addition, subtra
 Suppose you have $100, which you can invest with a 10% return each year. After one year, it's 100×1.1=110 dollars, and after two years it's 100×1.1×1.1=121. Add code to calculate how much money you end up with after 7 years, and print the result.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E001.py)
+
+## Exercise 002 Variable Assignment
+### Instructions
+* Create a variable savings with the value 100.
+* Check out this variable by typing print(savings) in the script.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E002.py)
