@@ -122,3 +122,10 @@ Similar functions such as int(), float() and bool() will help you convert Python
 * Print both downstairs and upstairs using print().
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E012.py)
+
+## Replace list elements
+
+* Update the area of the bathroom area to be 10.50 square meters instead of 9.50.
+* Make the areas list more trendy! Change "living room" to "chill zone".
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E013.py)
