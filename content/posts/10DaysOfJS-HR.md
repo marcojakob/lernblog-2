@@ -165,4 +165,6 @@ Create a Polygon class that has the following properties:
 Locked code in the editor tests the Polygon constructor and the perimeter method.
 
 __Note:__ The perimeter method must be lowercase and spelled correctly.
+
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/classes.js)
+
