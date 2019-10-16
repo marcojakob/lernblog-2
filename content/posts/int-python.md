@@ -87,3 +87,18 @@ Similar functions such as int(), float() and bool() will help you convert Python
 * Convert the variable pi_string to a float and store this float as a new variable, pi_float.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E007.py)
+
+## Exercise 08 Create a list
+* Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv),
+  bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.
+* Print areas with the print() function.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E008.py)
+
+## List of lists
+
+* Finish the list of lists so that it also contains the bedroom and bathroom data. Make sure you enter these in order!
+* Print out house; does this way of structuring your data make more sense?
+* Print out the type of house. Are you still dealing with a list?
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E009.py)
