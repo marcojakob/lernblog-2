@@ -3,7 +3,7 @@ titile = "Typescript"
 date = "2019-10-16"
 pinned = false
 draft = false
-image = "./img/tsc.png"
+image = "/img/tsc.png"
 +++
 ## Typescript:
 is an open-source **object-oriented** language developed and maintained by **Microsoft**, licensed under **Apache 2** license. It is a **typed superset of Javascript** that compiles to plain JavaScript.
@@ -54,16 +54,17 @@ console.log(first);  // 123
 console.log(second); // 14287
 console.log(third);  // 255
 console.log(fourth); // 57 
-```
-__Number Methods__<br>
-| Method               | Description          
-| -------------        |:-------------:
-|toExponential()       |Returns the exponential notation in string format.
-|toFixed()             |Returns the fixed-point notation in string format.
-|toLocaleString()      |Converts the number into a local specific representation of the number.
-|toPrecision()         |Converts the number into a local specific representation of the number.
-|toString()            |Returns the string representation of the number in the specified base.
-|valueOf()             |Returns the primitive value of the number.
+``` 
+### Number Methods
+
+Method                |Description
+----------------------|:----------
+toExponential()       |Returns the exponential notation in string format.
+toFixed()             |Returns the fixed-point notation in string format.
+toLocaleString()      |Converts the number into a local specific representation of the number.
+toPrecision()         |Converts the number into a local specific representation of the number.
+toString()            |Returns the string representation of the number in the specified base.
+valueOf()             |Returns the primitive value of the number.
 
 ### toPrecison()
 The toPrecision method returns the string representation in exponential or fixed-point to the specified precision.
