@@ -102,3 +102,23 @@ Similar functions such as int(), float() and bool() will help you convert Python
 * Print out the type of house. Are you still dealing with a list?
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E009.py)
+
+## Subset and conquer
+* Print out the second element from the areas list (it has the value 11.25).
+* Subset and print out the last element of areas, being 9.50. Using a negative index makes sense here!
+* Select the number representing the area of the living room (20.0) and print it out.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E010.py)
+
+## Subset and Calculate
+* Using a combination of list subsetting and variable assignment, create a new variable, eat_sleep_area, that contains the sum of the area of the kitchen and the area of the bedroom.
+* Print the new variable eat_sleep_area.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E011.py)
+
+## Slicing and dicing
+* Use slicing to create a list, downstairs, that contains the first 6 elements of areas.
+* Do a similar thing to create a new variable, upstairs, that contains the last 4 elements of areas.
+* Print both downstairs and upstairs using print().
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblog/tree/master/content/challenges/python/E012.py)
