@@ -72,6 +72,8 @@ print(my_list[-1])
 # Output: p
 print(my_list[-5])
 ```
+![Python List Indexing](/img/python-list-index.png "Python-list")
+
 ### slice lists in Python
 ```py
 my_list = ['p','r','o','g','r','a','m','i','z']
@@ -84,6 +86,8 @@ print(my_list[5:])
 # elements beginning to end
 print(my_list[:])
 ```
+![Element Slicing](/img/element-slicing.jpg "Element-list")
+
 ### change or add elements to a list
 ```py
 # mistake values
