@@ -168,3 +168,13 @@ __Note:__ The perimeter method must be lowercase and spelled correctly.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day04/classes.js)
 
+## Day 5: Inheritance
+### Task
+
+* Add an area method to Rectangle's prototype.
+* Create a Square class that satisfies the following:
+    1. It is a subclass of Rectangle.
+    2. It contains a constructor and no other methods.
+    3. It can use the Rectangle class' area method to print the         area of a Square object.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day05/inheritance.js)
