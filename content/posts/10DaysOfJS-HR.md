@@ -178,3 +178,27 @@ __Note:__ The perimeter method must be lowercase and spelled correctly.
     3. It can use the Rectangle class' area method to print the         area of a Square object.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day05/inheritance.js)
+
+## Day 5: Template Literals
+### Task
+
+The code in the editor has a tagged template literal that passes the area and perimeter of a rectangle to a tag function named sides. Recall that the first argument of a tag function is an array of string literals from the template, and the subsequent values are the template's respective expression values.
+
+**Complete the function in the editor so that it does the following:**
+
+* Finds the initial values of **s1**  and **s2** by plugging the area and perimeter values into the formula:
+where **A** is the rectangle's area and **P** is its perimeter.
+* Creates an array consisting of **s1** and **s2** and sorts it in ascending order.
+* Returns the sorted array.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day05/template-literals.js)
+
+## Day 5: Arrow Functions
+### Task
+Complete the function in the editor. It has one parameter: an **array**, **nums**. It must iterate through the array performing one of the following actions on each element:
+
+* If the element is even, multiply the element by **2**.
+* If the element is odd, multiply the element by **3**.
+The function must then return the modified array.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day05/arrow-functions.js)
