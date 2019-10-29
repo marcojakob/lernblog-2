@@ -202,3 +202,13 @@ Complete the function in the editor. It has one parameter: an **array**, **nums*
 The function must then return the modified array.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day05/arrow-functions.js)
+
+## Day 6: Bitwise Operators
+### Task
+We define **s** to be a sequence of distinct sequential integers from **1** to ; in other words, **S={1,2,3,...,n}**. We want to know the maximum bitwise AND value of any two integers, **a** and **b** (where **a>b**), in sequence **s** that is also less than a given integer,**k** .
+
+* Complete the function in the editor so that given **n** and **k**, it returns the maximum **a&b < k**.
+
+__Note:__ The  symbol represents the bitwise AND operator.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day06/bitwise-operators.js)
