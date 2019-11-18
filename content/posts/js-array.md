@@ -5,6 +5,19 @@ draft = false
 pinned = false
 image = "/img/array.png"
 +++
+## Static methods
+* Array.from()
+Creates a new Array instance from an array-like or iterable object.
+```js
+const list = document.getElementById('root li');
+// if we want to iterate through the html list elements we have to convert it into array to use forEach method
+Array.from(list).forEach()
+```
+* Array.isArray()
+Returns ***true*** if a variable is an array, if not ***false***.
+* Array.of()
+Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
+
 ## Common operations
 ### create an array
 
@@ -66,22 +79,65 @@ const index = items.findIndex((item)=#### {
 })
 console.log(index)
 ```
-#### Remove an items by index position
+#### Remove or replace an items by index position
 
 ```js
-const removeItem = Array.splice(pos, index);
-```
-#### Remove items from an index position
-
-```js
+//Syntax Array.splice(Number pos(starting position ), Number Amount(how many items to remove), item to replace or update);
 const numbers = ['Zero', 'One', 'Two', 'Three', 'Four'];
 
-const pos = 1, n = 2;
-
-const removeNum = numbers.splice(pos, n); 
+const removeNum = numbers.splice(0, 1,); 
 console.log(numbers); 
-//['Zero', 'One', 'Two', 'Three', 'Four'];
+//'One', 'Two', 'Three', 'Four'];
 
 console.log(removedItems); 
-// ["Two", "Three"]
+// ["Zero"]
+
+```
+#### Find index method 
+
+```js
+const items = [
+    {name:'Adele', album: 10 },
+    {name: 'LinkenPark', album: 22},
+    {name: 'Sia', album: 33},
+    {name: 'WestLife', album: 46},
+    {name: 'Enriqu', album: 55},
+    {name: 'ladyGaga', album: 67}
+]
+function findItem(sia){
+    return sia.album === 33; 
+}
+console.log(items[findIndex(findItem))
+//to access the object:
+console.log(items[items.findIndex(findItem)])
+
+```
+#### Sorting and Manipulating Arrays
+```js
+//Reverse
+const numbers = ["One", "Two", "Three", "Four","Five"];
+numbers.reverse();
+//["Five", "Four", "Three", "Two", "One"]
+
+//Sort it alphabetically 
+numbers.sort();
+//["Five", "Four", "One", "Three", "Two"]
+```
+#### nested Loops through the array   
+```js
+let array = [
+    [1, 2, 3, 4, 5, 6, 7],
+    [12, 22, 33, 44, 55, 66, 77,2],
+    [13, 23, 33, 43, 53, 63, 73]
+]
+
+const rows = array.length
+for(let i = 0; i < rows; i++){
+    let items = array[i].length;
+    console.log(i, items)
+    
+    for(let n = 0;n < items; n++){
+     console.log(array[i][n])   
+    }
+}
 ```
