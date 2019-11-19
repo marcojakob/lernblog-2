@@ -9,10 +9,10 @@ image = "/img/react.png"
 ## 1- React: Create a Simple JSX Element 
 ### Instructions: 
     element and add the text Hello JSX! inside it. 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch000.jsx)
 
 The current code uses **JSX** to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it. 
-[SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+[SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch000.jsx)
 
 ## 1- React: Create a Simple JSX Element
 
@@ -22,10 +22,10 @@ The current code uses **JSX** to assign a div element to the constant JSX. Repla
 ## 1- React: Create a Simple JSX Element 
 #### Instructions: 
      element and add the text Hello JSX! inside it. 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch000.jsx)
 
 The current code uses **JSX** to assign a div element to the constant JSX. Replace the div with an h1 element and add the text Hello JSX! inside it. 
-[SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch000.jsx)
+[SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch000.jsx)
 
 ## 2-React: Create a Complex JSX Element
 
@@ -43,14 +43,14 @@ Note: When rendering multiple elements like this, you can wrap them all in paren
     * The div should contain an h1 tag as the first element.
     * The ul should contain three li elements.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch001.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch001.jsx)
 
 * The constant JSX should return a div element.
 * The div should contain a p tag as the second element.
 * The div should contain a ul tag as the third element.
 * The div should contain an h1 tag as the first element.
 * The ul should contain three li elements.
-    [SOULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch001.jsx)
+    [SOULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch001.jsx)
 
 ## 3- React: Add Comments in JSX
 
@@ -67,7 +67,7 @@ The code editor has a JSX element similar to what you created in the last challe
     * The divshould contain a ptag as the second element.
     * The JSXshould include a comment.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch002.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch002.jsx)
 
 ## 4- React: Render HTML Elements to the DOM
 So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
@@ -85,14 +85,14 @@ The code editor has a simple JSX component. Use the ReactDOM.render()method to r
     * The divshould contain a ptag as the second element.
     * The provided JSX element should render to the DOM node with id challenge-node.
 
-  [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch003.jsx)
+  [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch003.jsx)
 
 ## 5- React: Define an HTML Class in JSX
 Apply a class of myDivto the divprovided in the JSX code.
 
     * The constant JSXshould return a divelement.
     * The divhas a class of myDiv.
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch004.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch004.jsx)
 
 ## 6- React: Learn About Self-Closing JSX Tags
 Fix the errors in the code editor so that it is valid JSX and successfully transpiles. Make sure you don't change any of the content - you only need to close tags where they are needed.
@@ -101,7 +101,7 @@ Fix the errors in the code editor so that it is valid JSX and successfully trans
     * The divshould contain a brtag.
     * The divshould contain an hrtag.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch005.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch005.jsx)
 ## 7- React: Create a Stateless Functional Component
 The code editor has a function called MyComponent. Complete this function so it returns a single divelement which contains some string of text.
 Note: The text is considered a child of the divelement, so you will not be able to use a self-closing tag.
@@ -111,7 +111,7 @@ Note: The text is considered a child of the divelement, so you will not be able 
     * MyComponentshould return a divelement.
     * The divelement should contain a string of text.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch006.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch006.jsx)
 ## 8- React: Create a React Component
 The other way to define a React component is with the ES6 classsyntax
 ### Instructions:
@@ -121,7 +121,7 @@ MyComponentis defined in the code editor using class syntax. Finish writing the 
     * The returned divshould render an h1header within it.
     * The h1header should contain the string Hello React!.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch007.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch007.jsx)
 
 ## 9- React: Create a Component with Composition
  we can compose multiple React components together. Imagine you are building an App and have created three components, a **Navbar**, **Dashboard**, and **Footer**. To compose these components together, you could create an **App** parent component which renders each of these three components as children. To render a component as a child in a React component, you include the component name written as a custom HTML tag in the JSX. For example, in the **render** method you could write:
@@ -133,7 +133,7 @@ In the code editor, there is a simple functional component called ChildComponent
     * The component should return two nested elements.
     * The component should return the ChildComponent as its second child  
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch008.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch008.jsx)
 
 ## 10 - React: Use React to Render Nested Components
 
@@ -149,5 +149,5 @@ There are two functional components defined in the code editor, called TypesOfFr
     * The Fruitscomponent should return the TypesOfFruitcomponent.
     * The TypesOfFruitcomponent should return the h2and ulelements.
 
-[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/ch009.jsx)
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch009.jsx)
 
