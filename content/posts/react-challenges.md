@@ -15,7 +15,7 @@ The current code uses **JSX** to assign a div element to the constant JSX. Repla
 
 [SULUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch000.jsx)
 
-## 2- React: Create a Complex JSX Element
+## 2- Create a Complex JSX Element
 
 Define a new constant JSX that renders a div which contains the following elements in order:
 
@@ -145,13 +145,14 @@ Rendering ES6 style class components within other components is no different tha
    * The TypesOfFood component should return the Fruits component.
    * The Fruits component should return the NonCitrus component and the Citrus component.
    * The TypesOfFood component should return the Vegetables component below the Fruits component.
+
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch010.jsx)
 
 ## 12- Render a Class Component to the DOM
 
 The process for ***rendering*** ```React components``` is very similar to using the ***ReactDOM API***
-Syntax:
 
+Syntax:
 ```js
 ReactDOM.render(componentToRender, targetNode)
 //The first argument is the React component that you want to render. 
@@ -168,5 +169,20 @@ You use this syntax for both ***ES6 class components*** and ***functional compon
    * The TypesOfFood component should render the Fruits component after the h1 element.
    * The TypesOfFood component should render the Vegetables component after Fruits.
    * The TypesOfFood component should render to the DOM within the div with the id challenge-node.
-     
+
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch011.jsx) 
+
+## 13- Write a React Component from Scratch
+a typical React component is an **ES6 class** which extends ``React.Component``. It has a ``render`` method that ``returns`` HTML (from JSX) or null.
+
+#### Requires
+Define a class **MyComponent** that ***extends*** **React.Component**. Its **render method** should **return** a ***div*** that contains an **h1** tag with the ***text***: ``My First React Component!`` in it. Use this text exactly, the case and punctuation matter. Make sure to call the **constructor** for your component, too.
+
+**Render** this component to the **DOM** using ```ReactDOM.render()```. There is a div with ``id='challenge-node'`` available for you to use.
+
+### Instructions
+   * There should be a React component called MyComponent.
+   * MyComponent should contain an h1 tag with text My First React Component! Case and punctuation matter.
+   * MyComponent should render to the DOM.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch012.jsx) 
