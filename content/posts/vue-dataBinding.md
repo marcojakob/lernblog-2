@@ -60,7 +60,7 @@ Binding Expressions
 ```js
 <!-- this is a statement, not an expression: -->
 {{ var a = 1 }}
-<!-- flow control won't work either, use ternary expressions -->
+// flow control won't work either, use ternary expressions 
 {{ if (ok) { return message } }}
 ```
 
