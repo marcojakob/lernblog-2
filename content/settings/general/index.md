@@ -1,8 +1,8 @@
 +++
 headless = true
 title = "Chiar Abdi"
-description = "My Blog"
-footerLeft = "Powered by ❤️ and [lernblog.ch](https://www.lernblog.ch)"
-footerRight = ""
+description = "Blog"
+footerLeft = "[Github](https://github.com/chiarabdy)"
+footerRight = "[Hackerrank](https://www.hackerrank.com/chiar_evdi)"
 +++
 

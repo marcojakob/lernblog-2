@@ -223,3 +223,4 @@ In React, you can pass **props**, or properties, to child components.
 * The Items component should have a prop of { quantity: 10 } passed from the ShoppingCart component.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch015.jsx)
+ss

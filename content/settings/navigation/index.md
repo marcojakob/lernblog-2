@@ -6,7 +6,11 @@ title = "Home"
 url = "/"
 
 [[link]]
-title = "Über mich"
+title = "About Me"
 url = "/ueber/"
+
+[[link]]
+title = "Portfolio"
+url = "/portfolio/"
 +++
 
