@@ -206,3 +206,20 @@ In React, you can pass **props**, or properties, to child components.
    * The CurrentDate component should render the value from the date prop in the p tag.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch013.jsx)
+
+## 15- User Default Props
+
+### Instructions:
+* The ShoppingCart component should render.
+* The ShoppingCart component should have a default prop of { items: 0 }.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch014.jsx)
+
+## 16- Override Default Props
+
+### Instructions: 
+* The component ShoppingCart should render.
+* The component Items should render.
+* The Items component should have a prop of { quantity: 10 } passed from the ShoppingCart component.
+
+[SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch015.jsx)
