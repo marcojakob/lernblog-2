@@ -212,3 +212,72 @@ We define **s** to be a sequence of distinct sequential integers from **1** to ;
 __Note:__ The  symbol represents the bitwise AND operator.
 
 [SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day06/bitwise-operators.js)
+
+## Day 6: Javascript Dates
+Given a date string,**dateString** , in the format `MM/DD/YYYY`, find and return the day name for that date. Each day name must be one of the following strings: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday. For example, the day name for the date 12/07/2016 is Wednesday.
+
+### Instructions:
+The function is called for the following **d=2** dates:
+
+* The date 10/11/2009 was a Sunday, so we return Sunday.
+* The date 11/10/2010 was a Wednesday, so we return Wednesda
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day06/dates.js)
+
+## Day 7: Regular Expressions!
+Complete the function in the editor below by returning a RegExp object,**re** , that matches any string **s** that begins and ends with the same vowel. Recall that the English vowels are a, e, i, o, and u.
+
+### Instructions:
+    Declare a RegExp object variable named 're'
+    It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u}
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day07/r-expressions.js)
+
+
+## Day7: Regular Expressions II
+### Task
+
+Complete the function in the editor below by returning a RegExp object, **re**, that matches any string **s** satisfying both of the following conditions:
+
+* String **s** starts with the prefix Mr., Mrs., Ms., Dr., or Er.
+* The remainder of string **s** (i.e., the rest of the string after the prefix) consists of one or more upper and/or lowercase English alphabetic letters (i.e., [a-z] and [A-Z]).
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day07/r-expressionsII.js)
+
+## Day 7: Regular Expressions III
+
+### Task
+* Receive a string of s
+* length of s ≥ 3
+* s is a string that contains numbers and letters
+* Write a regular expression that validates the string
+* The expression must only output integer numbers
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/blob/master/day07/r-expressionsIII.js)
+
+## Day 8: Create a Button 
+### Task
+
+Complete the code in the editor so that it creates a clickable button satisfying the following properties:
+
+* The button's id is btn.
+* The button's initial text label is . After each click, the button must increment by . Recall that the button's text label is the JS object's innerHTML property.
+* The button has the following style properties:
+* A width of 96px.
+* A height of 48px.
+* The font-size attribute is 24px.
+
+The .js and .css files are in different directories, so use the link tag to provide the CSS file path and the script tag to provide the JS file path:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/button.css" type="text/css">
+    </head>
+    
+    <body>
+    	<script src="js/button.js" type="text/javascript"></script>
+    </body>
+</html>
+```
