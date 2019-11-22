@@ -57,13 +57,6 @@ Binding Expressions
 
     These expressions will be evaluated in the data scope of the owner Vue instance. One restriction is that each binding can only contain one single expression, so the following will NOT work:
 
-```js
-<!-- this is a statement, not an expression: -->
-{{ var a = 1 }}
-// flow control won't work either, use ternary expressions 
-{{ if (ok) { return message } }}
-```
-
 **Filters**
 
 Vue.js allows you to append optional “filters” to the end of an expression, denoted by the “pipe” symbol:
@@ -109,19 +102,18 @@ Vue.js allows you to append optional “filters” to the end of an expression, 
 Modifiers
 
     Modifiers are special postfixes denoted by a dot, which indicate that a directive should be bound in some special way. For example, the .literal modifier tells the directive to interpret its attribute value as a literal string rather than an expression:
-```js
-<a v-bind:href.literal="/a/b/c"></a>
-```
+``
+<a v-bind:href.literal="/a/b/c"> </a>
+``
 
 Of course, this seems pointless because we can just do href="/a/b/c" instead of using a directive. The example here is just for demonstrating the syntax. We will see more practical uses of modifiers later.
 Shorthands
 
 The v- prefix serves as a visual cue for identifying Vue-specific attributes in your templates. This is useful when you are using Vue.js to apply dynamic behavior to some existing markup, but can feel verbose for some frequently used directives. At the same time, the need for the v- prefix becomes less important when you are building an SPA where Vue.js manages every template. Therefore, Vue.js provides special shorthands for two of the most often used directives, v-bind and v-on:
 v-bind Shorthand
-```js
+``
 <!-- full syntax -->
 <a v-bind:href="url"></a>
-<!-- shorthand -->
 <a :href="url"></a>
 or
 <!-- full syntax -->
@@ -135,7 +127,7 @@ or
 <a v-on:click="doSomething"></a>
 <!-- shorthand -->
 <a @click="doSomething"></a>
-```
+``
 >They may look a bit different from normal HTML, but all Vue.js supported browsers can parse it correctly, and they do not appear in the final rendered markup. The shorthand syntax is totally optional, but you will likely appreciate it when you learn more about its usage later.
 
 ## Attribute Binding
