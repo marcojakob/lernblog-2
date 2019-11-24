@@ -281,3 +281,38 @@ The .js and .css files are in different directories, so use the link tag to prov
     </body>
 </html>
 ```
+## Day 08 Buttons Container
+### Task
+Create nine buttons enclosed in a div, laid out so they form a **3 x 3** grid. Each button has a distinct label from**1 to 9**, and the labels on the outer buttons must rotate in the clockwise direction each time we click the middle button
+   - Element IDs. Each element in the document mus have an id, 
+       - The button container div/s **id** must be **btns**
+       - The initial `ÌnnerText` labels must have  the different button Ids 
+```js
+innerHTML 1,2... id btn1, btn2...
+```
+*  . The documetnt's elements must  have the follwing style:
+- The width is 30%, relativ to its container width
+- The height is 48px.
+- The font-size is 24p.
+* Behavior . Each time btn5 is **clicked**, the `innerHTML` text on the grid's outer button(i.e, bt1, btn2, btn3,btn4,btn6, btn7, btn8,btn9) must roteate in the clockwise direction. Do not update the button id's.
+* Include  **js and css** in the HTML file
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/tree/master/day08/button-container)
+
+## Day 09 Binary Calculator
+### Task
+implement a simple cal that performs the following operations on binary nubmers:
+`addition, subtraction, multiplication and division`
+* divisionoperation must be **integer** division only; for example, 1001/100 = 10, 10,1110/101 = 10, and 101/1=101.
+## Instructions
+* Styling.
+   - body has a width of 33 %
+   - res has a background-color of lightgray, a border that is solid, a height of 48px, and a font-size of 20px.
+   - btn0 and btn1 have a background-color of lightgreen and a color of brown.
+   - btnClr and btnEql have a background-color of darkgreen and a color of white.
+   - btnsum, btnSub, btnMul, and btnDiv have a background-color of black, a color of red
+   - All the buttons in btns have a width of 25%, a height of 36px, a font-size of 18px, margin of 0px, and float value left.
+
+[SOLUTIONS](https://github.com/chiarabdy/10DaysOfJavaScript-HackerRank/tree/master/day09)
+
+##                      .. END ..

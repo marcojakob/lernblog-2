@@ -44,9 +44,9 @@ $(":button")              Selects all <button> el and <input> el of type="button
 $("tr:even")              Selects all even <tr> el
 $("tr:odd")               Selects all odd <tr> el
 ```
-## JQuery Effects
+# JQuery Effects
 
-### hide() and show()
+1. hide() and show()
 Syntax:
 `$(selector).hide/show(speed,callback);`
 
@@ -60,4 +60,12 @@ $(() => {
 to toggle between **hiding** and **showing** an element with the `toggle()` method
 
 [toggle burger Menu](https://github.com/chiarabdy/lernblog/blob/master/content/challenges/js/toggle.html)
+
+2. fade
+
+    - fadeIn()
+    - fadeOut()
+    - fadeToggle()
+    - fadeTo()
+3. fadeIn()
 
