@@ -223,3 +223,58 @@ In React, you can pass **props**, or properties, to child components.
 * The Items component should have a prop of { quantity: 10 } passed from the ShoppingCart component.
 
 [SOLUTIONS](https://github.com/chiarabdy/lernblogTesting/blob/master/content/challenges/react/ch015.jsx)
+
+## 17- Use PropTypes to Define the Props you Expect
+### Typechecking with PropTypes
+      React provides useful type-checking features to verify that components receive
+      props of the correct type. For example, your application makes an API call 
+      toretrieve data that you expect to be in an array, which is then passed to a 
+      component as a prop. You can set propTypes on your component to require the data 
+      to be of type array. This will throw a useful warning when the data is of any 
+      other type.
+
+```js
+import React from 'react';
+import PropTypes from 'prop-types';
+ 
+class MyComponent extends React.Component {
+  render() {
+    // ... do things with the props
+  }
+}
+ 
+MyComponent.propTypes = {
+  // You can declare that a prop is a specific JS primitive. By default, these
+  // are all optional.
+  optionalArray: PropTypes.array,
+  optionalBool: PropTypes.bool,
+  optionalFunc: PropTypes.func,
+  optionalNumber: PropTypes.number,
+  optionalObject: PropTypes.object,
+  optionalString: PropTypes.string,
+  optionalSymbol: PropTypes.symbol,
+ 
+  // Anything that can be rendered: numbers, strings, elements or an array
+  // (or fragment) containing these types.
+  optionalNode: PropTypes.node,
+ 
+  // A React element (ie. <MyComponent />).
+  optionalElement: PropTypes.element,
+ 
+  // A React element type (ie. MyComponent).
+  optionalElementType: PropTypes.elementType,
+ 
+  // You can also declare that a prop is an instance of a class. This uses
+  // JS's instanceof operator.
+  optionalMessage: PropTypes.instanceOf(Message),
+```
+      Define propTypes for the Items component to require quantity as a 
+      prop and verify that it is of type number.
+
+## Instructions
+* The ShoppingCart component should render.
+* The Items component should render.
+* The Items component should include a propTypes check that requires quantity to be a number.
+
+[SOLUTIONS](https://github.com/chiarabdy/freecodecamp-react/blob/master/react%2017.jsx)
+
